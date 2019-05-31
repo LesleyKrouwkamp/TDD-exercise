@@ -76,6 +76,7 @@ describe("Set and get ", function(){
         expect(calculator.Add(1, 2, 3, 4)).toBe(10);       
         expect(calculator.set_slot(1));
         expect(calculator.get_slot(1)).toBe(10);
+        
         expect(calculator.Add(2,5)).toBe(7);
         expect(calculator.set_slot(2));
         expect(calculator.get_slot(2)).toBe(7);
